@@ -1,0 +1,13 @@
+build:
+  # Use the official Heroku Python buildpack
+  buildpacks:
+    - heroku/python
+
+  # Specify build commands if any custom steps are required
+  commands:
+    # Install dependencies from requirements.txt
+    - pip install -r requirements.txt
+
+run:
+  # Define the command to run the application
+  web: python Group.py
