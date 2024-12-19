@@ -1,0 +1,36 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variable files
+.env
+
+# Database files
+*.db
+
+# IDE files
+.vscode/
+.idea/
+
+# MacOS specific files
+.DS_Store
+
+# Python distribution files
+*.egg
+*.egg-info
+dist/
+build/
+
+# Log files
+*.log
+
+# Heroku files
+.heroku/
