@@ -1,0 +1,20 @@
+{
+  "env": {
+    "DEBUG": {
+      "description": "Set to True for debugging purposes, False for production",
+      "value": "False"
+    },
+    "DATABASE_URI": {
+      "description": "Database connection string",
+      "value": "sqlite:///prod.db"
+    },
+    "SECRET_KEY": {
+      "description": "A secret key for your application",
+      "value": "your-secret-key"
+    },
+    "BOT_TOKEN": {
+      "description": "Token for your bot to interact with the Telegram API",
+      "value": "your-bot-token"
+    }
+  }
+}
